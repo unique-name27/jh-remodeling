@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>JH Remodeling</title>
+<meta name="description" content="JH Remodeling, Inc. — Jamil Hasanov's licensed, bonded and insured remodeling company in Los Gatos, CA. Garage conversions, kitchens, bathrooms and full-home renovations across the South Bay. CSLB #1132818.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<meta property="og:title" content="JH Remodeling — Licensed Remodeling Contractor, Los Gatos CA">
+<meta property="og:description" content="Garage conversions, kitchens, bathrooms and full-home renovations across the South Bay. 4.9 stars on Yelp. CSLB #1132818.">
+<meta property="og:image" content="img/bath-onyx-brass.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%231b4fa3'/%3E%3Ctext x='32' y='42' font-family='Arial,Helvetica,sans-serif' font-weight='800' font-size='30' fill='white' text-anchor='middle'%3EJH%3C/text%3E%3C/svg%3E">
+<style>
+  :root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+  img { max-width: 100%; }
+  [hidden] { display: none !important; }
+</style>
+<style>
+  :root {
+    --bg: #f4f2ed;
+    --bg-2: #ebe7df;
+    --surface: #ffffff;
+    --ink: #111821;
+    --ink-2: #2e3b4a;
+    --muted: #5f6b78;
+    --line: #d9d4ca;
+    --blue: #1b4fa3;
+    --blue-ink: #ffffff;
+    --blue-soft: #e4ecf8;
+    --brass: #c08a3a;
+    --star: #d9a441;
+    --shadow: 0 18px 40px -24px rgba(17, 24, 33, .45);
+    --radius: 6px;
+    --font-display: "Bricolage Grotesque", "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --font-body: "Source Sans 3", "Source Sans Pro", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #12161b; --bg-2: #181e25; --surface: #1c232b; --ink: #f1eee8; --ink-2: #d7d2c8; --muted: #a09a90;
+      --line: #2b333d; --blue: #6f9ae8; --blue-ink: #0f1622; --blue-soft: #1c2a40; --brass: #d8a556; --star: #e2b358;
+      --shadow: 0 18px 40px -24px rgba(0,0,0,.8);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #12161b; --bg-2: #181e25; --surface: #1c232b; --ink: #f1eee8; --ink-2: #d7d2c8; --muted: #a09a90;
+    --line: #2b333d; --blue: #6f9ae8; --blue-ink: #0f1622; --blue-soft: #1c2a40; --brass: #d8a556; --star: #e2b358;
+    --shadow: 0 18px 40px -24px rgba(0,0,0,.8);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 17px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; }
+  h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.05; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+  h1 { font-size: clamp(2.4rem, 5.6vw, 4.4rem); font-weight: 800; }
+  h2 { font-size: clamp(1.9rem, 3.6vw, 2.8rem); font-weight: 700; }
+  h3 { font-size: 1.25rem; font-weight: 700; }
+  p { margin: 0; }
+  .wrap { width: min(1180px, 100%); margin-inline: auto; padding-inline: 20px; }
+  .eyebrow { font-family: var(--font-display); font-weight: 700; font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--blue); }
+  .lede { font-size: 1.15rem; color: var(--ink-2); max-width: 62ch; }
+  .muted { color: var(--muted); }
+  section { padding-block: clamp(56px, 8vw, 104px); }
+  .section-head { display: grid; gap: 12px; max-width: 70ch; margin-bottom: clamp(28px, 4vw, 48px); }
+  .btn { display: inline-flex; align-items: center; gap: 10px; padding: 14px 22px; border-radius: var(--radius); font-family: var(--font-display); font-weight: 700; font-size: 1rem; text-decoration: none; border: 1.5px solid transparent; cursor: pointer; transition: transform .15s ease, background .15s ease; }
+  .btn:focus-visible, a:focus-visible, button:focus-visible { outline: 3px solid var(--brass); outline-offset: 3px; }
+  .btn-primary { background: var(--blue); color: var(--blue-ink); }
+  .btn-primary:hover { transform: translateY(-1px); }
+  .btn-ghost { background: transparent; color: var(--ink); border-color: var(--ink); }
+  .btn-ghost:hover { background: var(--ink); color: var(--bg); }
+  .btn svg { width: 18px; height: 18px; flex: none; }
+
+  /* header */
+  .top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 68px; }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+  .mono { width: 40px; height: 40px; border-radius: 6px; background: var(--blue); color: var(--blue-ink); font-family: var(--font-display); font-weight: 800; font-size: 1.05rem; display: grid; place-items: center; letter-spacing: -.03em; }
+  .brand-name { font-family: var(--font-display); font-weight: 800; font-size: 1.15rem; line-height: 1; }
+  .brand-name small { display: block; font-family: var(--font-body); font-weight: 600; font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+  nav.links { display: flex; gap: 26px; }
+  nav.links a { text-decoration: none; font-weight: 600; font-size: .98rem; color: var(--ink-2); }
+  nav.links a:hover { color: var(--blue); }
+  .top .call { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font-family: var(--font-display); font-weight: 700; padding: 10px 16px; border-radius: var(--radius); background: var(--ink); color: var(--bg); white-space: nowrap; }
+  .top .call svg { width: 16px; height: 16px; }
+  @media (max-width: 860px) { nav.links { display: none; } }
+  @media (max-width: 520px) { .brand-name { font-size: 1rem; } .brand-name small { display: none; } .top .call { padding: 10px 12px; font-size: .92rem; } }
+
+  /* hero */
+  .hero { padding-block: clamp(36px, 6vw, 80px) 0; }
+  .hero-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: clamp(28px, 5vw, 64px); align-items: center; }
+  .hero-copy { display: grid; gap: 22px; }
+  .hero h1 span { color: var(--blue); }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+  .hero-photo { position: relative; margin: 0; }
+  .hero-photo img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 42%; border-radius: 8px; box-shadow: var(--shadow); }
+  @media (max-width: 860px) { .hero-photo img { aspect-ratio: 4 / 4.4; } }
+  .hero-photo figcaption { position: absolute; left: 14px; bottom: 14px; background: color-mix(in srgb, var(--ink) 82%, transparent); color: #fff; font-size: .82rem; font-weight: 600; padding: 7px 11px; border-radius: 4px; letter-spacing: .02em; }
+  .hero-grid > *, .about-grid > *, .contact-grid > * { min-width: 0; }
+  .review-pill { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; background: var(--surface); border: 1px solid var(--line); padding: 8px 12px 8px 10px; border-radius: 22px; justify-self: start; max-width: 100%; font-size: .95rem; text-decoration: none; }
+  .stars { color: var(--star); letter-spacing: 1px; font-size: 1.02rem; line-height: 1; }
+  .review-pill strong { font-family: var(--font-display); }
+  @media (max-width: 860px) { .hero-grid { grid-template-columns: 1fr; } }
+
+  /* trust strip */
+  .trust { margin-top: clamp(36px, 6vw, 72px); border-block: 1px solid var(--line); background: var(--bg-2); }
+  .trust .wrap { display: grid; grid-template-columns: repeat(4, 1fr); }
+  .trust .wrap > div { padding: 22px 18px; border-left: 1px solid var(--line); display: grid; gap: 4px; }
+  .trust .wrap > div:first-child { border-left: 0; padding-left: 0; }
+  .trust b { font-family: var(--font-display); font-size: 1.5rem; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+  .trust span { font-size: .9rem; color: var(--muted); }
+  @media (max-width: 760px) { .trust .wrap { grid-template-columns: 1fr 1fr; } .trust .wrap > div:nth-child(3) { border-left: 0; padding-left: 0; } .trust .wrap > div { border-top: 1px solid var(--line); } .trust .wrap > div:nth-child(-n+2) { border-top: 0; } }
+
+  /* services */
+  .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+  .svc { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; display: grid; grid-template-rows: auto 1fr; }
+  .svc img { aspect-ratio: 4 / 3; width: 100%; height: auto; object-fit: cover; }
+  .svc-body { padding: 20px 20px 22px; display: grid; gap: 10px; align-content: start; }
+  .svc-body p { color: var(--ink-2); font-size: .98rem; }
+  .svc-body ul { margin: 4px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 6px; }
+  .svc-body li { font-size: .8rem; font-weight: 600; color: var(--muted); background: var(--bg-2); padding: 4px 9px; border-radius: 4px; }
+  @media (max-width: 960px) { .services-grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 600px) { .services-grid { grid-template-columns: 1fr; } }
+
+  /* before / after */
+  .ba-section { background: var(--ink); color: var(--bg); }
+  .ba-section .eyebrow { color: var(--brass); }
+  .ba-section .lede { color: color-mix(in srgb, var(--bg) 78%, transparent); }
+  .ba-list { display: grid; gap: 36px; }
+  .ba { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; position: relative; }
+  .ba figure { margin: 0; position: relative; }
+  .ba img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; }
+  .ba figcaption { position: absolute; top: 12px; left: 12px; font-family: var(--font-display); font-weight: 800; font-size: .74rem; letter-spacing: .16em; text-transform: uppercase; padding: 6px 10px; border-radius: 3px; background: rgba(17,24,33,.85); color: #fff; }
+  .ba figure.after figcaption { background: var(--brass); color: #111; }
+  .ba.wide img { aspect-ratio: 16 / 9; }
+  .ba.tall img { aspect-ratio: 3 / 4; }
+  .ba.tall { max-width: 760px; }
+  .ba-title { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px; padding-top: 6px; }
+  .ba-title h3 { color: #fff; }
+  .ba-title p { color: color-mix(in srgb, var(--bg) 70%, transparent); font-size: .95rem; }
+  @media (max-width: 560px) { .ba { grid-template-columns: 1fr; } }
+
+  /* gallery */
+  .gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .gallery button { padding: 0; border: 0; background: none; cursor: pointer; border-radius: 4px; overflow: hidden; }
+  .gallery img { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; transition: transform .3s ease; }
+  .gallery button:hover img { transform: scale(1.03); }
+  .gallery button.wide { grid-column: span 2; }
+  .gallery button.wide img { aspect-ratio: 2 / 1; }
+  @media (max-width: 760px) { .gallery { grid-template-columns: repeat(2, 1fr); } }
+  .gallery-foot { margin-top: 22px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .lightbox { position: fixed; inset: 0; z-index: 100; background: rgba(8,10,14,.92); display: grid; place-items: center; padding: 24px; }
+  .lightbox img { max-width: min(1100px, 100%); max-height: 84vh; object-fit: contain; border-radius: 4px; }
+  .lightbox p { position: absolute; left: 0; right: 0; bottom: 20px; text-align: center; color: #eee; font-size: .95rem; }
+  .lightbox .x, .lightbox .prev, .lightbox .next { position: absolute; background: rgba(255,255,255,.12); color: #fff; border: 0; width: 44px; height: 44px; border-radius: 50%; font-size: 1.4rem; cursor: pointer; display: grid; place-items: center; }
+  .lightbox .x { top: 16px; right: 16px; }
+  .lightbox .prev { left: 12px; top: 50%; transform: translateY(-50%); }
+  .lightbox .next { right: 12px; top: 50%; transform: translateY(-50%); }
+
+  /* reviews */
+  .reviews { background: var(--bg-2); border-block: 1px solid var(--line); }
+  .review-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .review { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 22px 22px 20px; display: grid; gap: 12px; align-content: start; }
+  .review blockquote { margin: 0; font-size: 1.02rem; color: var(--ink-2); }
+  .review blockquote::before { content: "\201C"; font-family: var(--font-display); font-size: 2.4rem; line-height: 0; color: var(--brass); vertical-align: -0.35em; margin-right: 2px; }
+  .review .who { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; font-size: .9rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; }
+  .review .who b { color: var(--ink); font-weight: 600; }
+  .review .tag { font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--blue); }
+  @media (max-width: 960px) { .review-grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 620px) { .review-grid { grid-template-columns: 1fr; } }
+  .reviews-foot { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+  .yelp-badge { display: inline-flex; align-items: center; gap: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; text-decoration: none; }
+  .yelp-badge b { font-family: var(--font-display); font-size: 1.7rem; font-weight: 800; letter-spacing: -.02em; }
+  .yelp-badge span { font-size: .9rem; color: var(--muted); line-height: 1.25; }
+
+  /* about */
+  .about-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: clamp(28px, 5vw, 64px); align-items: center; }
+  .about-photos { display: grid; grid-template-columns: 1.15fr 1fr; grid-template-rows: 1fr 1fr; gap: 10px; }
+  .about-photos img { width: 100%; height: 100%; object-fit: cover; border-radius: 6px; aspect-ratio: 4 / 3; }
+  .about-photos img.tall { grid-row: 1 / 3; aspect-ratio: auto; }
+  .about-copy { display: grid; gap: 18px; }
+  .about-copy p { color: var(--ink-2); }
+  .team { display: flex; flex-wrap: wrap; gap: 8px; }
+  .team span { font-size: .85rem; font-weight: 600; background: var(--blue-soft); color: var(--blue); padding: 6px 10px; border-radius: 4px; }
+  .verify { display: grid; gap: 6px; padding: 16px 18px; border-left: 3px solid var(--brass); background: var(--surface); border-radius: 0 6px 6px 0; font-size: .95rem; }
+  .verify b { font-family: var(--font-display); }
+  @media (max-width: 860px) { .about-grid { grid-template-columns: 1fr; } }
+
+  /* process */
+  .steps { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; counter-reset: step; }
+  .step { display: grid; gap: 8px; padding-top: 16px; border-top: 2px solid var(--line); position: relative; }
+  .step::before { counter-increment: step; content: counter(step, decimal-leading-zero); font-family: var(--font-display); font-weight: 800; font-size: .85rem; color: var(--brass); letter-spacing: .1em; }
+  .step p { font-size: .95rem; color: var(--ink-2); }
+  @media (max-width: 960px) { .steps { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 520px) { .steps { grid-template-columns: 1fr; } }
+
+  /* contact */
+  .contact { background: var(--ink); color: var(--bg); }
+  .contact .eyebrow { color: var(--brass); }
+  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 5vw, 64px); }
+  .contact-info { display: grid; gap: 20px; align-content: start; }
+  .contact-info .lede { color: color-mix(in srgb, var(--bg) 80%, transparent); }
+  .contact-lines { display: grid; gap: 12px; }
+  .contact-lines a, .contact-lines div { display: flex; align-items: center; gap: 12px; text-decoration: none; font-size: 1.1rem; color: #fff; }
+  .contact-lines svg { width: 20px; height: 20px; flex: none; color: var(--brass); }
+  .contact-lines small { display: block; font-size: .82rem; color: color-mix(in srgb, var(--bg) 65%, transparent); }
+  .form { background: var(--surface); color: var(--ink); border-radius: 8px; padding: 26px; display: grid; gap: 14px; }
+  .form h3 { font-size: 1.3rem; }
+  .form label { display: grid; gap: 6px; font-size: .9rem; font-weight: 600; }
+  .form input, .form select, .form textarea { font: inherit; padding: 11px 12px; border: 1px solid var(--line); border-radius: 5px; background: var(--bg); color: var(--ink); width: 100%; }
+  .form textarea { min-height: 110px; resize: vertical; }
+  .form .row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .form .fine { font-size: .82rem; color: var(--muted); }
+  @media (max-width: 860px) { .contact-grid { grid-template-columns: 1fr; } }
+  @media (max-width: 520px) { .form .row { grid-template-columns: 1fr; } }
+
+  /* footer */
+  footer { padding-block: 32px 40px; border-top: 1px solid var(--line); font-size: .92rem; color: var(--muted); }
+  footer .wrap { display: grid; gap: 22px; }
+  .foot-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; align-items: center; }
+  .social { display: flex; gap: 14px; }
+  .social a { text-decoration: none; font-weight: 600; color: var(--ink-2); }
+  .right-jh { display: grid; gap: 6px; padding: 16px 18px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; max-width: 78ch; }
+  .right-jh b { color: var(--ink); font-family: var(--font-display); }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "JH Remodeling, Inc.",
+  "telephone": "+1-669-609-1313",
+  "email": "jh13remodeling@gmail.com",
+  "url": "https://jhremodel.com/",
+  "address": {"@type": "PostalAddress", "addressLocality": "Los Gatos", "addressRegion": "CA", "postalCode": "95032", "addressCountry": "US"},
+  "areaServed": ["Los Gatos", "San Jose", "Campbell", "Saratoga", "Cupertino", "Sunnyvale", "Santa Clara", "Mountain View", "Palo Alto"],
+  "founder": {"@type": "Person", "name": "Jamil Hasanov"},
+  "sameAs": ["https://www.yelp.com/biz/jh-remodeling-los-gatos", "https://www.instagram.com/jh_remodeling/", "https://www.facebook.com/profile.php?id=61584219423508"],
+  "openingHours": "Mo-Su 08:00-20:00",
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "88"}
+}
+</script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="JH Remodeling home">
+      <span class="mono" aria-hidden="true">JH</span>
+      <span class="brand-name">JH Remodeling<small>Los Gatos · Lic. #1132818</small></span>
+    </a>
+    <nav class="links" aria-label="Sections">
+      <a href="#services">Services</a>
+      <a href="#work">Our work</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="call" href="tel:+16696091313"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6.2 6.2l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>(669) 609-1313</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Licensed general contractor · Los Gatos &amp; the South Bay</span>
+        <h1>Garages, kitchens and bathrooms, <span>built right the first time.</span></h1>
+        <p class="lede">JH Remodeling is Jamil Hasanov's remodeling company. Small enough that Jamil shows up to your first walkthrough and stays on the job; established enough to handle the permits, the inspections, and the surprises behind the drywall.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Request a free estimate</a>
+          <a class="btn btn-ghost" href="#work">See our work</a>
+        </div>
+        <a class="review-pill" href="https://www.yelp.com/biz/jh-remodeling-los-gatos" target="_blank" rel="noopener">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <span><strong>4.9</strong> on Yelp · 88 reviews from Bay Area homeowners</span>
+        </a>
+      </div>
+      <figure class="hero-photo">
+        <img src="img/bath-onyx-brass.jpg" alt="Bathroom remodel by JH Remodeling: blue onyx-look tile shower with a brushed brass rain head, frameless sliding glass door, and a navy vanity with a quartz top" width="1400" height="1867" fetchpriority="high">
+        <figcaption>Bathroom remodel · South Bay</figcaption>
+      </figure>
+    </div>
+    <div class="trust">
+      <div class="wrap">
+        <div><b>4.9 ★</b><span>88 Yelp reviews, 5-star average</span></div>
+        <div><b>12 yrs</b><span>In business, locally owned</span></div>
+        <div><b>#1132818</b><span>CSLB license · bonded &amp; insured</span></div>
+        <div><b>Free</b><span>On-site estimates, 7 days a week</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">What we do</span>
+        <h2>One crew for the whole project</h2>
+        <p class="lede">Framing, drywall, tile, plumbing, electrical and paint are all done in-house, so there's one person accountable for the schedule and the result.</p>
+      </div>
+      <div class="services-grid">
+        <article class="svc">
+          <img src="img/garage-epoxy-laundry.jpg" alt="Remodeled garage with white walls, storage shelving, a stacked washer and dryer and a speckled epoxy floor" loading="lazy" width="1267" height="950">
+          <div class="svc-body">
+            <h3>Garage remodels &amp; conversions</h3>
+            <p>Our specialty. Insulation, drywall, lighting, epoxy floors and storage for a garage you actually use, or a full conversion into a studio, gym, office or living space.</p>
+            <ul><li>Epoxy floors</li><li>Insulation &amp; drywall</li><li>Attic access</li><li>ADU conversions</li></ul>
+          </div>
+        </article>
+        <article class="svc">
+          <img src="img/bath-onyx-brass.jpg" alt="Remodeled bathroom with blue onyx-look tile, brushed brass rain shower and sliding glass door, and a navy vanity with quartz top" loading="lazy" width="1400" height="1867" style="object-position:center 40%">
+          <div class="svc-body">
+            <h3>Bathroom remodeling</h3>
+            <p>From a vanity-and-floor refresh to a full gut: waterproofed tile showers, freestanding tubs, new plumbing and ventilation, done to code and finished clean.</p>
+            <ul><li>Tile &amp; waterproofing</li><li>Showers &amp; tubs</li><li>Vanities</li><li>Exhaust fans</li></ul>
+          </div>
+        </article>
+        <article class="svc">
+          <img src="img/kitchen-cherry-after-hi.jpg" alt="Renovated kitchen with cherry cabinets, speckled quartz counters, a new peninsula, plantation shutters and recessed lighting" loading="lazy" width="1800" height="1350">
+          <div class="svc-body">
+            <h3>Kitchen remodeling</h3>
+            <p>Demo, layout changes, relocated plumbing and electrical, cabinets, counters, backsplash and appliance install, coordinated so the inspections pass on the first visit.</p>
+            <ul><li>Cabinets &amp; counters</li><li>Backsplash</li><li>Plumbing &amp; electrical</li><li>Permits</li></ul>
+          </div>
+        </article>
+        <article class="svc">
+          <img src="img/garage-conversion-after.jpg" alt="Garage converted to a finished room: new exterior door and window, drywall, recessed lights and light-oak laminate floor" loading="lazy" width="1600" height="899">
+          <div class="svc-body">
+            <h3>Whole-home renovation &amp; repair</h3>
+            <p>Flooring, popcorn-ceiling removal, interior doors, wall removal, painting, and restoration work after leaks or water damage.</p>
+            <ul><li>Flooring</li><li>Ceilings &amp; paint</li><li>Doors</li><li>Water-damage restoration</li></ul>
+          </div>
+        </article>
+        <article class="svc">
+          <img src="img/gazebo-metal-roof.jpg" alt="New cedar gazebo with a metal roof on a travertine patio beside a lawn" loading="lazy" width="1267" height="950">
+          <div class="svc-body">
+            <h3>Decks, pergolas &amp; outdoor</h3>
+            <p>Composite decks and stairs, balcony floors, pergolas and gazebos, fences and gates, outdoor saunas, and play structures.</p>
+            <ul><li>Decks &amp; balconies</li><li>Pergolas &amp; gazebos</li><li>Fences</li><li>Saunas</li></ul>
+          </div>
+        </article>
+        <article class="svc">
+          <img src="img/interior-hardwood-room.jpg" alt="Freshly finished room with new recessed lights, a chandelier, smooth ceiling and laminate floors" loading="lazy" width="950" height="1266" style="object-position:center 30%">
+          <div class="svc-body">
+            <h3>Electrical &amp; lighting</h3>
+            <p>Recessed lights, ceiling fans, fixtures and chandeliers on vaulted ceilings, EV chargers, outdoor outlets, and panel-to-fixture work as part of any remodel.</p>
+            <ul><li>Recessed lighting</li><li>EV chargers</li><li>Fixtures &amp; fans</li><li>Outlets</li></ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="ba-section" id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Before &amp; after</span>
+        <h2>Real projects, photographed by us</h2>
+        <p class="lede">Every photo on this site is from a JH Remodeling project. No stock images, no renderings.</p>
+      </div>
+      <div class="ba-list">
+        <div class="ba">
+          <figure class="before"><img src="img/garage-before.jpg" alt="Garage mid-project: bare studs and open rafters, with the new epoxy floor already down" loading="lazy" width="697" height="523"><figcaption>Before</figcaption></figure>
+          <figure class="after"><img src="img/garage-after.jpg" alt="Same garage finished: insulated and drywalled, painted white, new lighting, attic ladder and a flake epoxy floor" loading="lazy" width="1267" height="950"><figcaption>After</figcaption></figure>
+          <div class="ba-title"><h3>Full garage remodel</h3><p>Insulation, drywall, lighting, attic access ladder, epoxy floor</p></div>
+        </div>
+        <div class="ba">
+          <figure class="before"><img src="img/kitchen-before.jpg" alt="Kitchen before: dated oak cabinets with glass doors, a black tile counter and a cluttered layout" loading="lazy" width="1454" height="834"><figcaption>Before</figcaption></figure>
+          <figure class="after"><img src="img/kitchen-navy-after.jpg" alt="Same kitchen after: navy shaker cabinets, white quartz peninsula, open shelving and recessed lights" loading="lazy" width="1267" height="950"><figcaption>After</figcaption></figure>
+          <div class="ba-title"><h3>Kitchen renovation</h3><p>Permitted demo, relocated plumbing and electrical, drywall, cabinets, counters, appliances</p></div>
+        </div>
+        <div class="ba wide">
+          <figure class="before"><img src="img/garage-conversion-before.jpg" alt="Garage before conversion: exposed rafters, plywood walls, a workbench and an open garage door" loading="lazy" width="1600" height="848"><figcaption>Before</figcaption></figure>
+          <figure class="after"><img src="img/garage-conversion-after.jpg" alt="Garage converted into a finished room with a new window, exterior door, drywall, recessed lights and laminate flooring" loading="lazy" width="1600" height="899"><figcaption>After</figcaption></figure>
+          <div class="ba-title"><h3>Garage-to-living-space conversion</h3><p>New window and door, framing, insulation, drywall, lighting and flooring</p></div>
+        </div>
+        <div class="ba tall">
+          <figure class="before"><img src="img/dining-light-before.jpg" alt="Dining room before: a single drum pendant over the table" loading="lazy" width="539" height="996"><figcaption>Before</figcaption></figure>
+          <figure class="after"><img src="img/dining-light-after.jpg" alt="Dining room after: a five-pendant glass fixture on a wood canopy over the table" loading="lazy" width="540" height="989"><figcaption>After</figcaption></figure>
+          <div class="ba-title"><h3>Dining room lighting</h3><p>New canopy, wiring and a five-pendant fixture</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Gallery</span>
+        <h2>More of our work</h2>
+      </div>
+      <div class="gallery" id="galleryGrid">
+        <button class="wide" type="button" data-cap="Garage remodel: flake epoxy floor, recessed lighting, black cabinet system"><img src="img/garage-black-cabinets-hi.jpg" alt="Finished garage with white flake epoxy floor, recessed lights, black steel cabinets and workbench" loading="lazy" width="1800" height="1350"></button>
+        <button type="button" data-cap="Blue onyx shower with brushed brass fixtures"><img src="img/bath-onyx-brass.jpg" alt="Shower with blue onyx-look tile, brushed brass rain head and sliding glass door" loading="lazy" width="1400" height="1867"></button>
+        <button type="button" data-cap="Jamil setting large-format tile"><img src="img/jamil-tiling-onyx.jpg" alt="Jamil Hasanov setting large-format onyx-look tile in a shower, with levelling clips in place" loading="lazy" width="1400" height="1867"></button>
+        <button type="button" data-cap="Dark marble-look shower with brass hardware"><img src="img/bath-dark-marble-shower.jpg" alt="Shower with dark marble-look tile, brass sliding-door hardware and a built-in niche" loading="lazy" width="950" height="1266"></button>
+        <button type="button" data-cap="Hex mosaic shower floor"><img src="img/bath-hex-floor.jpg" alt="Shower floor with a grey and white marble hex mosaic and square drain" loading="lazy" width="950" height="1266"></button>
+        <button class="wide" type="button" data-cap="Flake epoxy garage floor with storage racks and stacked laundry"><img src="img/garage-epoxy-flake.jpg" alt="Close view of a grey flake epoxy garage floor, with black storage racks and a stacked washer and dryer" loading="lazy" width="1267" height="950"></button>
+        <button type="button" data-cap="Walk-in shower with marble-look tile and built-in niche"><img src="img/bath-shower-niche.jpg" alt="Walk-in shower with large marble-look tile, a recessed niche and hex mosaic floor" loading="lazy" width="711" height="1005"></button>
+        <button type="button" data-cap="Guest bathroom with black fixtures"><img src="img/bath-black-fixtures.jpg" alt="Guest bathroom with a subway-tile shower, matte black fixtures, pebble floor and a dark vanity" loading="lazy" width="950" height="1266"></button>
+        <button class="wide" type="button" data-cap="Pergola build with new turf and gravel"><img src="img/pergola-lawn.jpg" alt="Backyard with a new wood pergola over a deck, fresh turf and a gravel border" loading="lazy" width="1267" height="950"></button>
+        <button type="button" data-cap="Barrel sauna installation"><img src="img/sauna-finished.jpg" alt="Barrel sauna with a glass front installed on a backyard patio" loading="lazy" width="838" height="1272"></button>
+        <button type="button" data-cap="Composite deck and stairs"><img src="img/deck-composite.jpg" alt="New composite deck boards and stairs leading to a covered porch" loading="lazy" width="950" height="1266"></button>
+        <button type="button" data-cap="Garage remodel, epoxy floor and fresh paint"><img src="img/garage-epoxy-door-open.jpg" alt="Finished garage with the door open, showing a speckled epoxy floor and white walls" loading="lazy" width="1267" height="950"></button>
+        <button type="button" data-cap="Front door replacement"><img src="img/front-door.jpg" alt="New wood front door with three glass panels on a grey house" loading="lazy" width="950" height="1266"></button>
+        <button class="wide" type="button" data-cap="Cedar gazebo build"><img src="img/gazebo-wood.jpg" alt="New cedar gazebo with a metal roof on a backyard slab" loading="lazy" width="1267" height="950"></button>
+        <button type="button" data-cap="Redwood fence and gate"><img src="img/fence.jpg" alt="New redwood fence and gate beside a house" loading="lazy" width="1267" height="950"></button>
+        <button type="button" data-cap="Composite deck build, framing to finish"><img src="img/deck-collage.jpg" alt="Collage of a composite deck build: new framing, joists and the finished deck" loading="lazy" width="1090" height="1090"></button>
+        <button type="button" data-cap="Navy kitchen with quartz peninsula"><img src="img/kitchen-navy-after.jpg" alt="Kitchen with navy shaker cabinets, white quartz peninsula and open shelving" loading="lazy" width="1267" height="950"></button>
+        <button type="button" data-cap="Garage with epoxy floor and new lighting"><img src="img/garage-white.jpg" alt="Garage with white walls, recessed lights, storage racks and an epoxy floor, looking out to the street" loading="lazy" width="1267" height="950"></button>
+        <button type="button" data-cap="Finished garage with epoxy floor and new lighting"><img src="img/garage-finished-door.jpg" alt="Finished garage interior with epoxy floor, white walls and new lights" loading="lazy" width="1454" height="816"></button>
+        <button type="button" data-cap="Garage rafters before insulation and drywall"><img src="img/garage-rafters-before.jpg" alt="Garage ceiling before remodel: bare rafters and open framing" loading="lazy" width="950" height="1266"></button>
+      </div>
+      <div class="gallery-foot">
+        <a class="btn btn-ghost" href="https://www.yelp.com/biz_photos/jh-remodeling-los-gatos" target="_blank" rel="noopener">See 200+ photos on Yelp</a>
+        <a class="btn btn-ghost" href="https://www.instagram.com/jh_remodeling/" target="_blank" rel="noopener">Follow @jh_remodeling</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Reviews</span>
+        <h2>What homeowners say</h2>
+        <p class="lede">Every quote below is taken word-for-word from a public Yelp review. Names are shown the way Yelp shows them.</p>
+      </div>
+      <div class="review-grid">
+        <article class="review">
+          <span class="tag">Bathroom remodel</span>
+          <blockquote>Jamil was incredibly attentive, came on site, and really listened to every detail I envisioned. They transformed my bathroom into a luxurious space with beautiful marble finishes, a sleek hidden drain design in the shower area, and a stunning double vanity that ties it all together.</blockquote>
+          <div class="who"><b>Subhi K.</b><span>Santa Clara · Dec 2025</span></div>
+        </article>
+        <article class="review">
+          <span class="tag">Kitchen · permits &amp; inspection</span>
+          <blockquote>Pulling permits, removal of all cabinets and appliances, relocating and updating plumbing and electrical as needed to be code compliant, and patching and painting drywall. They worked within a tight timeline to do all the above AND pass initial inspection!</blockquote>
+          <div class="who"><b>Chieri W.</b><span>Sacramento · Sep 2025</span></div>
+        </article>
+        <article class="review">
+          <span class="tag">Shower remodel</span>
+          <blockquote>After a family emergency kept me from the job site, Jamil and his team took full ownership of my project with zero hiccups. Jamil kept me in the loop with detailed video updates and great communication. Pricing was very reasonable.</blockquote>
+          <div class="who"><b>Sarah G.</b><span>Redwood City · Jul 2025</span></div>
+        </article>
+        <article class="review">
+          <span class="tag">Garage remodel</span>
+          <blockquote>The JH Remodeling team did amazing work on my garage. All work was done professionally and quickly. Jamil even offered to build a closet door to match one that was no longer available. Also, a shout-out to Talib, who did expert tile work.</blockquote>
+          <div class="who"><b>Barbara J.</b><span>Sunnyvale · Aug 2026</span></div>
+        </article>
+        <article class="review">
+          <span class="tag">Guest bathroom</span>
+          <blockquote>The job was completed sooner than predicted. The new tile floor was water-proofed and it is stunning. The paint job is flawless. The crew was always on time, worked diligently, cleaned up daily, and kept us in the loop at all times.</blockquote>
+          <div class="who"><b>Susan K.</b><span>Los Gatos · Aug 2026</span></div>
+        </article>
+        <article class="review">
+          <span class="tag">Kitchen restoration after a leak</span>
+          <blockquote>He arrived the same day to assess the project and had shared an estimate within an hour. His pricing was reasonable and he quickly scheduled the work. He completed a very neat and quality job quickly and while keeping us updated through the process.</blockquote>
+          <div class="who"><b>Atul B.</b><span>Sunnyvale · Jun 2026</span></div>
+        </article>
+      </div>
+      <div class="reviews-foot">
+        <a class="yelp-badge" href="https://www.yelp.com/biz/jh-remodeling-los-gatos" target="_blank" rel="noopener">
+          <b>4.9</b>
+          <span><span class="stars" aria-hidden="true">★★★★★</span><br>88 reviews on Yelp</span>
+        </a>
+        <a class="btn btn-ghost" href="https://www.yelp.com/biz/jh-remodeling-los-gatos" target="_blank" rel="noopener">Read all reviews</a>
+        <a class="btn btn-ghost" href="https://www.youtube.com/watch?v=8YCuZeq0Xkc" target="_blank" rel="noopener">Watch a customer video</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="about-photos">
+        <img class="tall" src="img/jamil-tiling-onyx.jpg" alt="Jamil Hasanov setting large-format tile in a shower" loading="lazy" width="1400" height="1867">
+        <img src="img/team-van.jpg" alt="Two JH Remodeling crew members with the work van outside a client's home" loading="lazy" width="950" height="1266">
+        <img src="img/garage-rafters-before.jpg" alt="Garage ceiling stripped to the rafters at the start of a remodel" loading="lazy" width="950" height="1266">
+      </div>
+      <div class="about-copy">
+        <span class="eyebrow">About</span>
+        <h2>Owner on site. Every job.</h2>
+        <p>JH Remodeling was founded by Jamil Hasanov, who came to the Bay Area from Azerbaijan and built the company one small job at a time: show up, do it right, redo anything that isn't. Twelve years on, the crew is bigger and the projects are larger, but the rule hasn't changed.</p>
+        <p>Homeowners mention the same things in review after review: Jamil answers the phone, sends video updates, treats your house like his own, and quotes a fair price for careful work. If a part is discontinued, he builds one to match. If a subfloor is rotten under the tile, he tells you and fixes it properly instead of tiling over it.</p>
+        <div class="team"><span>Jamil · owner</span><span>Gadir · project lead</span><span>Talib · tile</span></div>
+        <div class="verify">
+          <b>Make sure you've got the right JH.</b>
+          <span>There is more than one "JH" contractor in the South Bay. We are <strong>JH Remodeling, Inc.</strong> of Los Gatos, owner Jamil Hasanov, California license <strong>#1132818</strong>, and the 4.9-star page on Yelp. If a quote or review shows a different license number or owner, it's a different company.</span>
+          <a href="https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/CheckLicense.aspx" target="_blank" rel="noopener">Look up license #1132818 on the CSLB website →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">How it works</span>
+        <h2>From first call to final walkthrough</h2>
+      </div>
+      <div class="steps">
+        <div class="step"><h3>Call or message</h3><p>Tell us what you're thinking about. We usually respond within a few hours.</p></div>
+        <div class="step"><h3>Free on-site visit</h3><p>Jamil comes to the house, measures, and talks through options and trade-offs.</p></div>
+        <div class="step"><h3>Written estimate</h3><p>A clear scope and price, including demo, prep and disposal. No surprises.</p></div>
+        <div class="step"><h3>Permits &amp; build</h3><p>We pull permits where required, schedule inspections, and keep you updated with photos and video.</p></div>
+        <div class="step"><h3>Walkthrough</h3><p>We go through every detail together and stand behind the work afterward.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div class="contact-info">
+        <span class="eyebrow">Get an estimate</span>
+        <h2>Let's look at your project</h2>
+        <p class="lede">Estimates are free and there's no pressure. Serving Los Gatos, San Jose, Campbell, Saratoga, Cupertino, Sunnyvale, Santa Clara, Mountain View, Palo Alto and the surrounding South Bay.</p>
+        <div class="contact-lines">
+          <a href="tel:+16696091313"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6.2 6.2l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span>(669) 609-1313<small>Call or text</small></span></a>
+          <a href="mailto:jh13remodeling@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg><span>jh13remodeling@gmail.com<small>Email</small></span></a>
+          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span>Open daily, 8 AM – 8 PM<small>Los Gatos, CA · serving the South Bay</small></span></div>
+        </div>
+      </div>
+      <form class="form" id="quoteForm" action="mailto:jh13remodeling@gmail.com" method="post" enctype="text/plain">
+        <h3>Request a free estimate</h3>
+        <div class="row">
+          <label for="f-name">Name<input id="f-name" name="Name" type="text" autocomplete="name" required></label>
+          <label for="f-phone">Phone<input id="f-phone" name="Phone" type="tel" autocomplete="tel" required></label>
+        </div>
+        <div class="row">
+          <label for="f-city">City<input id="f-city" name="City" type="text" autocomplete="address-level2" placeholder="Los Gatos"></label>
+          <label for="f-type">Project<select id="f-type" name="Project"><option>Garage remodel or conversion</option><option>Bathroom</option><option>Kitchen</option><option>Whole home / repair</option><option>Deck, pergola or outdoor</option><option>Electrical &amp; lighting</option><option>Something else</option></select></label>
+        </div>
+        <label for="f-msg">Tell us about it<textarea id="f-msg" name="Details" placeholder="What are you hoping to do, and roughly when?"></textarea></label>
+        <button class="btn btn-primary" type="submit">Send request</button>
+        <p class="fine">This opens a pre-filled email to jh13remodeling@gmail.com. Prefer to talk? Call or text (669) 609-1313.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div><b style="color:var(--ink);font-family:var(--font-display)">JH Remodeling, Inc.</b> · Los Gatos, CA · CSLB #1132818 · Licensed, bonded &amp; insured</div>
+      <div class="social">
+        <a href="https://www.yelp.com/biz/jh-remodeling-los-gatos" target="_blank" rel="noopener">Yelp</a>
+        <a href="https://www.instagram.com/jh_remodeling/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61584219423508" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+    <div class="right-jh"><b>Not affiliated with any other "JH" construction or remodeling company.</b> JH Remodeling, Inc. is owned by Jamil Hasanov and operates under California contractor license #1132818 only.</div>
+    <div>© 2026 JH Remodeling, Inc. All photos are of JH Remodeling projects.</div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var grid = document.getElementById('galleryGrid');
+  if (!grid) return;
+  var items = Array.prototype.slice.call(grid.querySelectorAll('button'));
+  var current = -1, box = null;
+  function build() {
+    box = document.createElement('div');
+    box.className = 'lightbox';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.setAttribute('aria-label', 'Photo viewer');
+    box.innerHTML = '<button class="x" type="button" aria-label="Close">×</button><button class="prev" type="button" aria-label="Previous photo">‹</button><img alt=""><button class="next" type="button" aria-label="Next photo">›</button><p></p>';
+    box.querySelector('.x').addEventListener('click', close);
+    box.querySelector('.prev').addEventListener('click', function () { show(current - 1); });
+    box.querySelector('.next').addEventListener('click', function () { show(current + 1); });
+    box.addEventListener('click', function (e) { if (e.target === box) close(); });
+    document.body.appendChild(box);
+  }
+  function show(i) {
+    if (!box) build();
+    current = (i + items.length) % items.length;
+    var img = items[current].querySelector('img');
+    var big = box.querySelector('img');
+    big.src = img.currentSrc || img.src;
+    big.alt = img.alt;
+    box.querySelector('p').textContent = items[current].getAttribute('data-cap') || '';
+    box.hidden = false;
+    box.querySelector('.x').focus();
+  }
+  function close() { if (box) { box.hidden = true; items[current].focus(); } }
+  items.forEach(function (b, i) { b.addEventListener('click', function () { show(i); }); });
+  document.addEventListener('keydown', function (e) {
+    if (!box || box.hidden) return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowRight') show(current + 1);
+    if (e.key === 'ArrowLeft') show(current - 1);
+  });
+})();
+</script>
+
+</body>
+</html>
