@@ -126,24 +126,6 @@
   @media (max-width: 960px) { .services-grid { grid-template-columns: 1fr 1fr; } }
   @media (max-width: 600px) { .services-grid { grid-template-columns: 1fr; } }
 
-  /* before / after */
-  .ba-section { background: var(--ink); color: var(--bg); }
-  .ba-section .eyebrow { color: var(--brass); }
-  .ba-section .lede { color: color-mix(in srgb, var(--bg) 78%, transparent); }
-  .ba-list { display: grid; gap: 36px; }
-  .ba { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; position: relative; }
-  .ba figure { margin: 0; position: relative; }
-  .ba img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; }
-  .ba figcaption { position: absolute; top: 12px; left: 12px; font-family: var(--font-display); font-weight: 800; font-size: .74rem; letter-spacing: .16em; text-transform: uppercase; padding: 6px 10px; border-radius: 3px; background: rgba(17,24,33,.85); color: #fff; }
-  .ba figure.after figcaption { background: var(--brass); color: #111; }
-  .ba.wide img { aspect-ratio: 16 / 9; }
-  .ba.tall img { aspect-ratio: 3 / 4; }
-  .ba.tall { max-width: 760px; }
-  .ba-title { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px; padding-top: 6px; }
-  .ba-title h3 { color: #fff; }
-  .ba-title p { color: color-mix(in srgb, var(--bg) 70%, transparent); font-size: .95rem; }
-  @media (max-width: 560px) { .ba { grid-template-columns: 1fr; } }
-
   /* gallery */
   .gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
   .gallery button { padding: 0; border: 0; background: none; cursor: pointer; border-radius: 4px; overflow: hidden; }
@@ -268,7 +250,7 @@
       <div class="hero-copy">
         <span class="eyebrow">Licensed general contractor · Los Gatos &amp; the South Bay</span>
         <h1>Garages, kitchens and bathrooms, <span>built right the first time.</span></h1>
-        <p class="lede">JH Remodeling is Jamil Hasanov's remodeling company. Small enough that Jamil shows up to your first walkthrough and stays on the job; established enough to handle the permits, the inspections, and the surprises behind the drywall.</p>
+        <p class="lede">JH Remodeling is Jamil Hasanov's remodeling company, and Jamil runs every project personally: he walks the house with you, plans the job, handles the permits and inspections, works alongside his crew, and does the final walkthrough himself.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#contact">Request a free estimate</a>
           <a class="btn btn-ghost" href="#work">See our work</a>
@@ -353,43 +335,13 @@
     </div>
   </section>
 
-  <section class="ba-section" id="work">
+
+  <section id="work">
     <div class="wrap">
       <div class="section-head">
-        <span class="eyebrow">Before &amp; after</span>
+        <span class="eyebrow">Our work</span>
         <h2>Real projects, photographed by us</h2>
         <p class="lede">Every photo on this site is from a JH Remodeling project. No stock images, no renderings.</p>
-      </div>
-      <div class="ba-list">
-        <div class="ba">
-          <figure class="before"><img src="img/garage-before.jpg" alt="Garage mid-project: bare studs and open rafters, with the new epoxy floor already down" loading="lazy" width="697" height="523"><figcaption>Before</figcaption></figure>
-          <figure class="after"><img src="img/garage-after.jpg" alt="Same garage finished: insulated and drywalled, painted white, new lighting, attic ladder and a flake epoxy floor" loading="lazy" width="1267" height="950"><figcaption>After</figcaption></figure>
-          <div class="ba-title"><h3>Full garage remodel</h3><p>Insulation, drywall, lighting, attic access ladder, epoxy floor</p></div>
-        </div>
-        <div class="ba">
-          <figure class="before"><img src="img/kitchen-before.jpg" alt="Kitchen before: dated oak cabinets with glass doors, a black tile counter and a cluttered layout" loading="lazy" width="1454" height="834"><figcaption>Before</figcaption></figure>
-          <figure class="after"><img src="img/kitchen-navy-after.jpg" alt="Same kitchen after: navy shaker cabinets, white quartz peninsula, open shelving and recessed lights" loading="lazy" width="1267" height="950"><figcaption>After</figcaption></figure>
-          <div class="ba-title"><h3>Kitchen renovation</h3><p>Permitted demo, relocated plumbing and electrical, drywall, cabinets, counters, appliances</p></div>
-        </div>
-        <div class="ba wide">
-          <figure class="before"><img src="img/garage-conversion-before.jpg" alt="Garage before conversion: exposed rafters, plywood walls, a workbench and an open garage door" loading="lazy" width="1600" height="848"><figcaption>Before</figcaption></figure>
-          <figure class="after"><img src="img/garage-conversion-after.jpg" alt="Garage converted into a finished room with a new window, exterior door, drywall, recessed lights and laminate flooring" loading="lazy" width="1600" height="899"><figcaption>After</figcaption></figure>
-          <div class="ba-title"><h3>Garage-to-living-space conversion</h3><p>New window and door, framing, insulation, drywall, lighting and flooring</p></div>
-        </div>
-        <div class="ba tall">
-          <figure class="before"><img src="img/dining-light-before.jpg" alt="Dining room before: a single drum pendant over the table" loading="lazy" width="539" height="996"><figcaption>Before</figcaption></figure>
-          <figure class="after"><img src="img/dining-light-after.jpg" alt="Dining room after: a five-pendant glass fixture on a wood canopy over the table" loading="lazy" width="540" height="989"><figcaption>After</figcaption></figure>
-          <div class="ba-title"><h3>Dining room lighting</h3><p>New canopy, wiring and a five-pendant fixture</p></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="gallery">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Gallery</span>
-        <h2>More of our work</h2>
       </div>
       <div class="gallery" id="galleryGrid">
         <button class="wide" type="button" data-cap="Garage remodel: flake epoxy floor, recessed lighting, black cabinet system"><img src="img/garage-black-cabinets-hi.jpg" alt="Finished garage with white flake epoxy floor, recessed lights, black steel cabinets and workbench" loading="lazy" width="1800" height="1350"></button>
